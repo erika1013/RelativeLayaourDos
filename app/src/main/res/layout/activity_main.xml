@@ -55,7 +55,6 @@
         android:background="@color/colorAccent"
         android:padding="10dp"
         android:layout_centerInParent="true"
-
         />
     <TextView
         android:id="@+id/txt_6"
@@ -64,9 +63,20 @@
         android:text="@string/str_6"
         android:background="@color/colorAccent"
         android:padding="10dp"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/txt_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_6"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
 
         />
+
     <TextView
         android:id="@+id/txt_7"
         android:layout_width="wrap_content"
@@ -75,7 +85,7 @@
         android:background="@color/colorAccent"
         android:padding="10dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
         />
     <TextView
         android:id="@+id/txt_8"
@@ -85,17 +95,8 @@
         android:background="@color/colorAccent"
         android:padding="10dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        />
-    <TextView
-        android:id="@+id/txt_9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/str_9"
-        android:background="@color/colorAccent"
-        android:padding="10dp"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
 
-        />
+
 
 </RelativeLayout>
